@@ -38,3 +38,31 @@ function alpha(str) {
 }
 console.log("orange");
 console.log(alpha("orange"));
+
+
+
+
+
+// question5
+
+// //  with if statment
+// function AgeChecker(age) {
+//   if (age >= 18) {
+//       return "The user is Adult";
+//   } else {
+//       return "The user is Minor";
+//   }
+// }
+
+// console.log(AgeChecker(19));
+// console.log(AgeChecker(14));
+
+// with ternary operator
+
+function AgeChecker(age) {
+  return age >= 18 ? "The user is Adult" : "The user is Minor";
+}
+
+
+console.log(AgeChecker(19));  
+console.log(AgeChecker(14));  
